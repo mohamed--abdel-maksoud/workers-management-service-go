@@ -1,0 +1,23 @@
+[
+    {
+        "_id": "empl@mail.com",
+        "name": "john emp smith",
+        "isContractor": false,
+        "jobTitle": "developer",
+        "tags": ["c++", "python"]
+    },
+    {
+        "_id": "ceo@mail.com",
+        "name": "john ceo smith",
+        "isContractor": false,
+        "jobTitle": "CEO",
+        "tags": ["c++", "perl"]
+    },
+    {
+        "_id": "contractor@mail.com",
+        "name": "john contractor smith",
+        "isContractor": true,
+        "contractEnd": "2019-11-30T15:04:05Z",
+        "tags": ["mongodb", "mysql", "aws"]
+    }
+]
