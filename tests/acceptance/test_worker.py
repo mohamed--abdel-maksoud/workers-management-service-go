@@ -5,7 +5,7 @@ import unittest
 BASE_URL = os.getenv('API_URL', 'http://localhost:8000')
 
 
-class MarketsTest(unittest.TestCase):
+class EmployeesServiceTest(unittest.TestCase):
 
     def test_get_employee(self):
         response = requests.get(f'{BASE_URL}/worker/ceo@mail.com')
